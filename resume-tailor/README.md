@@ -1,12 +1,17 @@
-# React + Vite
+Resume Tailor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Work in Progress 🚧
 
-Currently, two official plugins are available:
+A web app that helps job seekers find relevant roles and tailor their resumes using AI-powered feedback. You can search jobs by title and location, filter by employment type, view detailed job descriptions, upload your resume, and receive targeted suggestions on how well your resume matches each role.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
 
-## Expanding the ESLint configuration
+Job Search: Fetch live job listings via the JSearch RapidAPI.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Location Autocomplete: City suggestions powered by GeoDB Cities API.
+
+Employment Filter: Narrow results to Full‑time, Part‑time, Contract, Internship, etc.
+
+Job Detail View: Read full job descriptions in a clean, responsive layout.
+
+Resume Upload & Feedback: Extract text from PDF/TXT resumes and compare against the selected job using OpenAI’s Chat Completion API.
